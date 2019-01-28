@@ -1,0 +1,23 @@
+{
+  "name": "@appliedblockchain/docs",
+  "version": "0.1.0",
+  "description": "A wrapper around koa-joi-router-docs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint . --ignore-path .gitignore"
+  },
+  "author": "Appliedblockchain",
+  "dependencies": {
+    "joi": "^14.3.1",
+    "koa-joi-router-docs": "^0.1.9"
+  },
+  "devDependencies": {
+    "@appliedblockchain/eslint-config": "^2.5.0",
+    "eslint": "^4.19.1",
+    "jest": "^23.6.0",
+    "koa": "^2.6.2",
+    "koa-joi-router": "^5.1.0",
+    "supertest": "^3.3.0"
+  }
+}
